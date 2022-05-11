@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position:fixed;
+}
+
+.detalle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 10px auto;
+}
+
+.detalle img {
+    width: 400px;
+    height: 400px;
+}
+
+.description {
+    display: inline;
+    padding: 20px;
+    width: 400px;
+}
+
+.deleteOrBuy {
+    display: block;
+    text-align: right;
+    margin-right: 6rem;
+}
+
+.deleteOrBuy button {
+    margin: 5px;
+}
+
+
+.footerConte {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    color: #0d030373;
+}
+
+.link {
+    text-decoration: none;
+    color: #0d030373;
+}

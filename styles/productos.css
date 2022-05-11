@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: inline;
+    text-align: center;
+}
+
+.btn {
+    margin: 10px;
+}
+
+button {
+    padding: 1rem;
+}
+
+.mostrarP {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.mostrarP img {
+    width: 200px;
+    height: 200px;
+}
+
+.conteF {
+    display: block;
+}
+
+.labelInput {
+    display: flex;
+}
+
+.label {
+    width: 190px;
+    line-height: 26px;
+}
+
+.label label {
+    color: #0275d8;
+    width: 190px;
+
+}
+
+.input input {
+    border: 1px solid #0275d8;
+    ;
+    border-radius: 10px;
+}
+
+.btnForm{
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.footerConte {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    color: #0d030373;
+}
+
+.link {
+    text-decoration: none;
+    color: #0d030373;
+}

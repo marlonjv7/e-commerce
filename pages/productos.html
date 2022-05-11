@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/productos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Productos E-commerce</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-primary ">
+        <div class="container-fluid d-flex justify-content-center">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/logoP.jpg" alt="" width="60" height="60"
+                    class="d-inline-block align-text-center border border-light rounded border-3">
+                Buy Shoes
+            </a>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                +
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="btn">
+            <button class="btn btn-primary" id="hombres">Categoria para Hombres</button>
+            <button class="btn btn-primary" id="mujeres">Categoria para Mujeres</button>
+        </div>
+
+        <div class="mostrarP">
+
+        </div>
+
+    </main>
+
+    <section>
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title bg-primary border-3 rounded p-2" id="staticBackdropLabel">Nuevo Producto
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="conteF" id="form">
+                            <section class="labelInput">
+                                <div class="label">
+                                    <label for="" >Imagen del producto:</label>
+                                    <label for="" >Nombre del producto:</label>
+                                    <label for="" >Precio del producto:</label>
+                                    <label for="" >Cantidad de productos:</label>
+                                    <label for="" >Descripción del producto:</label>
+                                    <label for="" >Categoria del producto:</label>
+                                </div>
+                                <div class="input">
+                                    <input type="text" name="" placeholder="Aquí" id="imagen" required>
+                                    <input type="text" name="" placeholder="Aquí" id="nombre" required>
+                                    <input type="text" name="" placeholder="Aquí" id="valor" required>
+                                    <input type="text" name="" placeholder="Aquí" id="cantidadP" required>
+                                    <input type="text" name="" placeholder="Aquí" id="detalle" required>
+                                    <input type="text" name="" placeholder="Aquí" id="categoria" required>
+                                </div>
+                            </section>
+                            <div class="btn btnForm">
+                                <button class="btn btn-primary">Agregar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <hr>
+    <footer id="AggClase">
+        
+    </footer>
+    <hr>
+
+    <script src="../scripts/productos.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
